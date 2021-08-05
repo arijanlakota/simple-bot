@@ -2,7 +2,7 @@ module.exports = {
 	name: 'math',
 	aliases: false,
 	description: false,
-	cooldown: false,
+	cooldown: 5,
 	guildOnly: true,
 	args:true,
 	usage:false,
@@ -16,16 +16,16 @@ module.exports = {
         const kolicnik = parseInt(a)/parseInt(b);
 		switch(args[1]){
             case "+":
-            msg.reply("The result is :",zbir)
+            msg.reply("The result is :" +zbir)
             break
             case "-":
-            msg.reply("The result is :",razlika)
+            msg.reply("The result is :" + razlika)
             break
             case "*":
-            msg.reply("The result is :",proizvod)
+            msg.reply("The result is :" + proizvod)
             break
             case "/":
-            msg.reply("The result is :",kolicnik)
+            msg.reply("The result is :" + kolicnik)
             break
                 
         }
