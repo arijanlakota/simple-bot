@@ -6,7 +6,8 @@ module.exports = {
 	Help: require('./help'),
 	Commands: require('./commands'),
 	math: require('./Math'),
-	myCiperAlg: require('./myCiperAlg'),
+	myCipherAlg: require('./myCiperAlg'),
 	ComeBack: require('./ComeBack'),
-	Cipher: require('./cipher')
+	Cipher: require('./cipher'),
+	decipher: require('./Decipher')
 };
