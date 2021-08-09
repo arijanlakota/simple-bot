@@ -8,7 +8,7 @@ module.exports = {
 	usage:false,
 	// eslint-disable-next-line no-unused-vars
 	execute(msg, args) {
-        var argsarr = args.split("")
+        var argsarr = args[0].split("")
         var tinylet = "abcdefghijklmnopqrstuvwxyz "
         var biglet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
         var alphabet = tinylet.split("")

@@ -1,5 +1,5 @@
 module.exports = {
-	name: 'myCipherAlg',
+	name: 'cp',
 	aliases: false,
 	description: "My algorithm for encrypting",
 	cooldown: 5,
@@ -8,6 +8,7 @@ module.exports = {
 	usage:false,
 	// eslint-disable-next-line no-unused-vars
 	execute(msg, args) {
+        console.log("pozvano")
         var argsarr = (args.join()).split("") 
         var tinylet = "abcdefghijklmnopqrstuvwxyz "
         var biglet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
