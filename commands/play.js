@@ -1,4 +1,4 @@
-var wordArr = ["povodac","varijabla","deklaracija","dijapazon","kontradiktornost","privilegija","potrcati","znatizelja","suton"]
+var wordArr = ["povodac","varijabla","deklaracija","dijapazon","kontradiktornost","privilegija","potrcati","znatizelja","suton","developer","satirican","vodolija"]
 var pokusaji;
 var randomWord;
 var pomocnaLista;
@@ -16,13 +16,13 @@ module.exports = {
             randomWord = wordArr[Math.floor(Math.random() * 9)].split("")
             pomocnaLista = []
             for(var i =0;i < randomWord.length;i++){
-                pomocnaLista.push("_")
+                pomocnaLista.push(" . ")
             
             }
             pokusaji = 0;
             return msg.reply("game sterted, we choose a random word ")
         }
-        if(randomWord && pokusaji <= 10 && pomocnaLista.join("") !== randomWord.join("")){
+        if(randomWord && pokusaji <= 12 && pomocnaLista.join("") !== randomWord.join("")){
             if(args[0].length > 1){
                 if(args[0] === randomWord.join("")){
                     return msg.reply("You are right,the game is over")
