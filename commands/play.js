@@ -27,7 +27,7 @@ module.exports = {
             players[userId] = {x:randomWord,y:pomocnaLista,z:pokusaji}
             return msg.reply("game sterted, we choose a random word ")
         }
-        if(players[userId].x && players[userId].z <= 12 && players[userId].x.join("") !== players[userId].y.join){
+        if(players[userId].x && players[userId].z <= 12 && players[userId].x.join("") !== players[userId].y.join("")){
             if(args[0].length > 1){
                 if(args[0] === players[userId].x.join("")){
                     return msg.reply("You are right,the game is over")
@@ -48,6 +48,5 @@ module.exports = {
             }
         return msg.reply("game over the word was",players[userId].x.join(""))
         players[userId] = undefined
-
-	}
+    }
 };

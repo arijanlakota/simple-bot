@@ -8,5 +8,6 @@ module.exports = {
 	ComeBack: require('./ComeBack'),
 	Cipher: require('./cipher'),
 	decipher: require('./Decipher'),
-	play: require('./play')
+	play: require('./play'),
+	Calc: require('./calc')
 };
