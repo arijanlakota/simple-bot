@@ -9,5 +9,8 @@ module.exports = {
 	Cipher: require('./cipher'),
 	decipher: require('./Decipher'),
 	play: require('./play'),
-	Calc: require('./calc')
+	Calc: require('./calc'),
+	Tableflip: require('./tableflip'),
+	Unflip: require('./unflip'),
+	Shrug: require('./shrug')
 };
