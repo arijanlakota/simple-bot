@@ -12,5 +12,6 @@ module.exports = {
 	Calc: require('./calc'),
 	Tableflip: require('./tableflip'),
 	Unflip: require('./unflip'),
-	Shrug: require('./shrug')
+	Shrug: require('./shrug'),
+	Cards: require('./cards')
 };

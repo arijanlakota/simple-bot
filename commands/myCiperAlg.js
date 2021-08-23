@@ -28,11 +28,6 @@ module.exports = {
             cipherStr += String.fromCharCode(results[j])
         }
         msg.reply(cipherStr)
-
-
-
-
-    
-
+        
     }
 };

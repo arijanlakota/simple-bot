@@ -21,7 +21,6 @@ module.exports = {
             pomocnaLista = []
             for(var i =0;i < randomWord.length;i++){
                 pomocnaLista.push(" . ")
-            
             }
             pokusaji = 0;
             players[userId] = {x:randomWord,y:pomocnaLista,z:pokusaji}
