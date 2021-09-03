@@ -1,0 +1,15 @@
+{
+    "name": "class-tasks",
+    "version": "0.0.1",
+    "description": "Class tasks",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node .",
+      "lint": "eslint .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Suad Suljovic",
+    "license": "ISC"
+  }
+  
